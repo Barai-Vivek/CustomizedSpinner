@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spinnerProfession"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:entries="@array/profession"
+            android:spinnerMode="dropdown"
+            android:visibility="invisible"
+            android:dropDownWidth="150dp"
+            android:popupBackground="@android:color/transparent"
+            android:textSize="24sp" />
+
+        <RelativeLayout
+            android:id="@+id/relSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/txtSelectedItem"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/imgdown"
+                android:text="dummy"
+                android:layout_marginRight="16dp"
+                android:background="@null"
+                android:lines="1"
+                android:clickable="false"
+                android:focusable="false"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:textColor="@android:color/black"
+                android:focusableInTouchMode="false"
+                />
+
+
+            <ImageView
+                android:id="@+id/imgdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/down_arrow"
+                />
+        </RelativeLayout>
+
+    </FrameLayout>
+
+
+</RelativeLayout>
