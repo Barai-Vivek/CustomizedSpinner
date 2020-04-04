@@ -1,4 +1,3 @@
-![](customize-spinner.gif)
 # CustomizedSpinner
 I have customized the Spinner widget with core code and not used any third party library to make some simple changes. 
 In this Spinner widget i have customized following things:<br>
