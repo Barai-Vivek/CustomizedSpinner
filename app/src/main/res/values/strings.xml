@@ -1,17 +1,10 @@
 <resources>
-    <string name="app_name">Spinner Demo</string>
+    <string name="app_name">Customized Spinner</string>
 
-    <string-array name="profession">
-        <item name="business">Business</item>
-        <item name="government_sector">Government Sector  gdijfgdjgpdjh fojhlgfdknbldngblkndfblkndlbkndlbndlbdlbndlbndlnblnblxbn</item>
-        <item name="housewife">Housewife</item>
-        <item name="not_categorized">Not Categorized</item>
-        <item name="private_sector">Private Sector</item>
-        <item name="public_sector">Public Sector</item>
-        <item name="professional">Professional</item>
-        <item name="retired">Retired</item>
-        <item name="student">Student</item>
-        <item name="self_employed">Self Employed</item>
-        <item name="others">Others</item>
+    <string-array name="country">
+        <item name="india">India</item>
+        <item name="usa">USA</item>
+        <item name="russia">Russia</item>
+        <item name="japan">Japan</item>
     </string-array>
 </resources>

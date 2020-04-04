@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".KotlinActivity"
+    android:background="#e3e3e3">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -13,13 +14,11 @@
         android:layout_marginRight="16dp">
 
         <androidx.appcompat.widget.AppCompatSpinner
-            android:id="@+id/spinnerProfession"
+            android:id="@+id/spinnerCountry"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:entries="@array/profession"
             android:spinnerMode="dropdown"
             android:visibility="invisible"
-            android:dropDownWidth="150dp"
             android:popupBackground="@android:color/transparent"
             android:textSize="24sp" />
 
@@ -43,7 +42,7 @@
                 android:focusable="false"
                 android:textSize="16sp"
                 android:gravity="center_vertical"
-                android:textColor="@android:color/black"
+                android:textColor="@android:color/holo_purple"
                 android:focusableInTouchMode="false"
                 />
 
